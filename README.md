@@ -18,7 +18,6 @@ Zentflow is a modern file sharing app built with Flutter that allows instant fil
 
   * Android
   * Linux
-  * (Planned: Windows, iOS)
 
 ---
 
@@ -65,22 +64,6 @@ flutter run
 2. Open Zentflow on both devices
 3. Send from one device
 4. Receive on the other
-
----
-
-## 🚧 Upcoming Features
-
-* Pause / Resume transfers
-* Clipboard sharing
-* Themes & customization
-* Transfer statistics
-* Multi-device support
-
----
-
-## 🤝 Contributing
-
-Feel free to fork and submit pull requests.
 
 ---
 
