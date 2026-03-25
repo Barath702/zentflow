@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 25% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 199 89% 48%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 14% 92%;
+    --muted-foreground: 220 10% 46%;
+    --accent: 330 81% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262 83% 58%;
+    --radius: 1rem;
+    --success: 152 69% 45%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(199 89% 48%));
+    --gradient-accent: linear-gradient(135deg, hsl(330 81% 60%), hsl(262 83% 58%));
+    --gradient-warm: linear-gradient(135deg, hsl(38 92% 50%), hsl(330 81% 60%));
+    --glass-bg: hsla(0, 0%, 100%, 0.6);
+    --glass-border: hsla(0, 0%, 100%, 0.3);
+    --glass-shadow: 0 8px 32px hsla(220, 25%, 10%, 0.08);
+  }
+
+  .dark {
+    --background: 222 30% 8%;
+    --foreground: 210 40% 95%;
+    --card: 222 25% 12%;
+    --card-foreground: 210 40% 95%;
+    --popover: 222 25% 12%;
+    --popover-foreground: 210 40% 95%;
+    --primary: 262 83% 62%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 199 89% 52%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 222 20% 18%;
+    --muted-foreground: 215 20% 60%;
+    --accent: 330 81% 64%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 222 20% 20%;
+    --input: 222 20% 20%;
+    --ring: 262 83% 62%;
+    --success: 152 69% 50%;
+    --warning: 38 92% 55%;
+    --glass-bg: hsla(222, 25%, 12%, 0.7);
+    --glass-border: hsla(0, 0%, 100%, 0.08);
+    --glass-shadow: 0 8px 32px hsla(0, 0%, 0%, 0.3);
+  }
+
+  .amoled {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 4%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 262 83% 62%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 199 89% 52%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 8%;
+    --muted-foreground: 0 0% 55%;
+    --accent: 330 81% 64%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 12%;
+    --input: 0 0% 12%;
+    --ring: 262 83% 62%;
+    --success: 152 69% 50%;
+    --warning: 38 92% 55%;
+    --glass-bg: hsla(0, 0%, 4%, 0.8);
+    --glass-border: hsla(0, 0%, 100%, 0.06);
+    --glass-shadow: 0 8px 32px hsla(0, 0%, 0%, 0.5);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+  }
+  .glass-strong {
+    background: var(--glass-bg);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+  }
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  .gradient-warm {
+    background: var(--gradient-warm);
+  }
+}
