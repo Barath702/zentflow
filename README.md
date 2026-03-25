@@ -1,29 +1,28 @@
-🚀 Zentflow
+# 🚀 Zentflow
 
-100% Offline • Peer-to-Peer • Lightning Fast File Sharing
+**100% Offline • Peer-to-Peer • Lightning Fast File Sharing**
 
-Zentflow is a sleek, modern file sharing app built with Flutter that lets you transfer files instantly over local WiFi — no internet required, no cloud, no nonsense.
+Zentflow is a modern file sharing app built with Flutter that allows instant file transfers over local WiFi — no internet required.
 
-✨ Features
+---
 
-⚡ Ultra-fast transfers over local WiFi
+## ✨ Features
 
-📡 Peer-to-peer connection (no server needed)
+* ⚡ Ultra-fast file transfers
+* 📡 Peer-to-peer connection (no server)
+* 🔒 Fully offline & private
+* 📂 Supports all file types
+* 🔁 Retry support for failed transfers
+* 🎯 Clean, minimal UI
+* 🌐 Cross-platform
 
-🔒 Completely offline & private
+  * Android
+  * Linux
+  * (Planned: Windows, iOS)
 
-📂 Send any file type
+---
 
-🔁 Reliable transfers with retry support
-
-🎯 Simple & clean UI (PicsArt-inspired)
-
-🌐 Cross-platform support
-
-Android
-Linux
-
-📸 Screenshots
+## 📸 Screenshots
 
 <p align="center">
   <img src="Screenshots/1.jpg" width="22%" />
@@ -39,37 +38,54 @@ Linux
   <img src="Screenshots/8.jpg" width="22%" />
 </p>
 
-🛠️ Tech Stack
+---
 
-Flutter – Cross-platform UI
-Dart – Core logic
-Local WiFi Networking – Device-to-device communication
+## 🛠️ Tech Stack
 
-📦 Installation
+* Flutter
+* Dart
+* Local WiFi networking
 
-🔹 Clone the repo
+---
+
+## 📦 Installation
+
+```bash
 git clone https://github.com/Barath702/zentflow.git
 cd zentflow
-🔹 Install dependencies
 flutter pub get
-🔹 Run the app
 flutter run
-🧠 How It Works
-Connect both devices to the same WiFi network
-Open Zentflow on both devices
-One device sends, the other receives
-Files transfer instantly ⚡
-🚧 Upcoming Features
-⏸️ Pause / Resume transfers
-📋 Clipboard sharing
-🎨 Themes & customization
-📊 Transfer statistics
-🔗 Multi-device support
-🤝 Contributing
+```
 
-Contributions are welcome!
-Feel free to fork the repo and submit a pull request.
+---
 
-⭐ Support
+## 🧠 How It Works
 
-If you like Zentflow, consider giving it a ⭐ on GitHub — it helps a lot!
+1. Connect both devices to the same WiFi network
+2. Open Zentflow on both devices
+3. Send from one device
+4. Receive on the other
+
+---
+
+## 🚧 Upcoming Features
+
+* Pause / Resume transfers
+* Clipboard sharing
+* Themes & customization
+* Transfer statistics
+* Multi-device support
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork and submit pull requests.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a star ⭐
+
+---
