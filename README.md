@@ -5,17 +5,26 @@
 Zentflow is a sleek, modern file sharing app built with Flutter that lets you transfer files instantly over local WiFi — no internet required, no cloud, no nonsense.
 
 ✨ Features
+
 ⚡ Ultra-fast transfers over local WiFi
+
 📡 Peer-to-peer connection (no server needed)
+
 🔒 Completely offline & private
+
 📂 Send any file type
+
 🔁 Reliable transfers with retry support
+
 🎯 Simple & clean UI (PicsArt-inspired)
+
 🌐 Cross-platform support
+
 Android
 Linux
-(Planned: Windows, iOS)
+
 📸 Screenshots
+
 <p align="center">
   <img src="Screenshots/1.jpg" width="22%" />
   <img src="Screenshots/2.jpg" width="22%" />
@@ -29,11 +38,15 @@ Linux
   <img src="Screenshots/7.jpg" width="22%" />
   <img src="Screenshots/8.jpg" width="22%" />
 </p>
+
 🛠️ Tech Stack
+
 Flutter – Cross-platform UI
 Dart – Core logic
 Local WiFi Networking – Device-to-device communication
+
 📦 Installation
+
 🔹 Clone the repo
 git clone https://github.com/Barath702/zentflow.git
 cd zentflow
