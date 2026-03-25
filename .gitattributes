@@ -1,0 +1,12 @@
+# Ignore platform/build noise
+android/** linguist-vendored
+ios/** linguist-vendored
+build/** linguist-vendored
+.gradle/** linguist-vendored
+
+# Ignore config-heavy files
+*.json linguist-vendored
+*.lock linguist-vendored
+
+# Force Dart
+*.dart linguist-language=Dart
