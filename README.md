@@ -1,4 +1,5 @@
 # 🚀 Zentflow
+![Flutter](https://img.shields.io/badge/Framework-Flutter-blue?logo=flutter)
 
 **100% Offline • Peer-to-Peer • Lightning Fast File Sharing**
 
